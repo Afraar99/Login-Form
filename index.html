@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <style>
+      body {
+        background-image: url("background.jpg"); /* Replace with your background image */
+        background-size: cover;
+        background-position: center;
+        font-family: Arial, sans-serif;
+      }
+
+      .glass-container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+        backdrop-filter: blur(10px);
+        background-color: rgba(255, 255, 255, 0.5);
+      }
+
+      .login-form {
+        padding: 20px;
+        background-color: white;
+        border-radius: 10px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+      }
+
+      .login-form input {
+        width: 100%;
+        padding: 10px;
+        margin-bottom: 10px;
+        border: none;
+        border-radius: 5px;
+      }
+
+      .login-form button {
+        width: 100%;
+        padding: 10px;
+        background-color: #4caf50;
+        color: white;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+      }
+
+      .login-form button:hover {
+        background-color: #45a049;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="glass-container">
+      <div class="login-form">
+        <h2>Login</h2>
+        <input type="text" placeholder="Username" />
+        <input type="password" placeholder="Password" />
+        <button type="submit">Login</button>
+      </div>
+    </div>
+  </body>
+</html>
